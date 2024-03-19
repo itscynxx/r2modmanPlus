@@ -72,7 +72,7 @@ export default class GameInstructionParser {
     }
 
     private static async northstarDirectoryResolver(game: Game, profile: Profile): Promise<string | R2Error> {
-        return path.join(profile.getPathOfProfile(), "R2Northstar");
+        return path.join(profile.getPathOfProfile(), "R2NorthstarAAAAA");
     }
 
 }
